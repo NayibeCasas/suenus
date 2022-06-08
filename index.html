@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SUENUS</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/242df0cab7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./imagenes/logo2.png" sizes="32x32">
+</head>
+<body>
+    <header class="header" id="home">
+        <nav class="navegación">
+            <ul>
+                <li class="prin"><i  class="fas fa-user-alt" ></i>  <a href="#sobre_mi" >Sobre Mi</a></li>
+                <li class="prin"><i class="fas fa-image" ></i>  <a href="#portafolio" >Portafolio</a></li>
+                <li class="prin"><i class="fas fa-phone-alt" ></i>  <a href="#contacto" >Contacto</a></li>
+                <li class="home" ><a href="#home" >HOME</a><img src="./imagenes/logo3.png" alt=""></i>  </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <img src="./imagenes/logo.png" alt="">
+        <section id="sobre_mi">
+            <div style="margin-top: 20%;">
+                <h1>SOBRE Mí</h1>
+                <p>Hola, soy Julián Suárez, soy diseñador gráfico, bienvenido a “SUENUS” mi portafolio personal, aquí vas a conocer un poco de mi trabajo, podrás encontrar variadas piezas graficas de algunas de mis áreas de trabajo a lo largo de mi trayectoria en mi profesión. Soy un apasionado de mi carrera, me gusta crear y comunicar por medio del arte y la creatividad, siempre estoy atento a los detalles y a la posibilidad del cambio y la transformación, y como esto nos lleva a cumplir objetivos y metas; ese es el objetivo de SUENUS.</p>
+            </div>
+            <div >
+                <div class="detalle" style="margin-top: -20%; display: flex; width: 30%;height: 20%;">
+                    <div style="height:100%;"></div>
+                    <div style="height: 70%; margin-top: 21%;"></div>
+                    <div style="height : 40%; margin-top:41% ;"></div>
+                </div>
+                <img src="./imagenes/foto.jpg" alt="">
+                <div class="detalles" style=" display: flex; margin-top: -1%; margin-left: 70%; width: 30%;height: 20%; ">
+                    <div style="height:40%;"></div>
+                    <div style="height: 70%; "></div>
+                    <div style="height : 100%; "></div>
+                </div>
+            </div>
+
+        </section>
+        <div class="main_habilidades" style="">
+            <h1>HABILIDADES</h1>
+            <figure>
+                <img src="./imagenes/PS.jpg" alt="">
+                <div style="width: 90%; background-color: #F5F1F1;">
+                    <div style="width: 90%;height: 100%; background-color: #8c2424;"></div>
+                </div>
+            </figure>
+            <figure>
+                <img src="./imagenes/AI.jpg" alt="">
+                <div style="width: 90%; background-color: #F5F1F1;">
+                    <div style="width: 88%;height: 100%; background-color: #8c2424;"></div>
+                </div>
+            </figure>
+            <figure>
+                <img src="./imagenes/ID.png" alt="">
+                <div style="width: 90%; background-color: #F5F1F1;">
+                    <div style="width: 60%;height: 100%; background-color: #8c2424;"></div>
+                </div>
+            </figure>
+        </div>
+        <section class="portafolio" id="portafolio">
+            <div id="botones" style="display: flex;align-items: center; margin-left: 10%;width: 100%; height: 500px;">
+                <img src="./imagenes/palabra portafolio.png" style="margin-right:5%; height: 100%; width: 20%;" alt="">
+                <div style="width: 98%; ">
+                    <h1>P</h1>
+                    <div class="content" style="margin-left: 0.5%; " >
+                        <h1 >O</h1>
+                        <div style="margin-left: 2%; display: flex; align-items: center; width: 100%; ">
+
+                            <p class="btn active" onclick="filterSelection('uno')"  style="margin-left: -2%;  ">PUBLICIDAD</p>
+                        </div>
+                        
+                    </div>
+                    <h1>R</h1>
+                    <div class="content" style="margin-left: 0.5%; " >
+                        <h1>T</h1>
+                        <div style="margin-left: 2%; display: flex; align-items: center; width: 100%;   ">
+                            <p class="btn active" onclick="filterSelection('dos')" >ILUSTRACIONES
+                            </p>
+                        </div>
+                    </div>
+                    <h1>A</h1>
+                    <div class="content" style="margin-left: 0.5%; ">
+                        <h1>F</h1>
+                        <div style=" margin-left: 2%; display: flex; align-items: center; width: 100%;  ">
+
+                            <p class="btn active" onclick="filterSelection('tres')" >MODELADO 3D</p>
+                        </div>
+                    </div>
+                    <h1>O</h1>
+                    <div class="content" style="margin-left: 0.5%; " >
+                        <h1>L</h1>
+                        <div style=" margin-left: 2%;display: flex; align-items: center; width: 100%;  ">
+                            <p class="btn active" onclick="filterSelection('cuatro')" >FOTOGRAFÍA</p>
+                        </div>
+                    </div>
+                    <h1 style="margin-left: 1%;">I</h1>
+                    <h1>O</h1>
+                    
+                </div>
+
+            </div>
+        
+        <!--imagenes-->
+        <div class="portafolio_valla column uno" >
+            <h1>PUBLICIDAD</h1>
+            <div style="width: 100%; height: 100%; margin-top: 10%;">
+                <figure style="height: 70%; width: 30%;">
+                    <img src="imagenes/PUBLICIDAD/3.jpg" onclick="ampliar('imagenes/PUBLICIDAD/3.jpg')" > 
+                </figure>              
+                <figure style="height: 30%; width: 30%;" >
+                    <img src="imagenes/PUBLICIDAD/1.jpg" onclick="ampliar1('imagenes/PUBLICIDAD/1.jpg')" > 
+                </figure> 
+                <figure  style="height: 30%; width: 30%;">
+                    <img src="imagenes/PUBLICIDAD/2.jpg" onclick="ampliar1('imagenes/PUBLICIDAD/2.jpg')"> 
+                </figure>                 
+                <figure style="height: 30%; width: 30%; margin-left:34% ; margin-top: -30%;">
+                    <img src="imagenes/PUBLICIDAD/4.png" onclick="ampliar1('imagenes/PUBLICIDAD/4.png')"> 
+                </figure>                
+                <figure style="height: 30%; width: 30%; margin-left:66% ; margin-top: -37%;">
+                    <img src="imagenes/PUBLICIDAD/5.jpg" onclick="ampliar1('imagenes/PUBLICIDAD/5.jpg')"> 
+                </figure>   
+            </div>
+        </div> 
+                <div class="portafolio_ilus column dos">
+                    <h1>ILUSTRACIONES</h1>
+                    <div>
+                        <figure>
+                            <img src="imagenes/ILUSTRACIONES/1.jpg" onclick="ampliar('imagenes/ILUSTRACIONES/1.jpg')" > 
+                        </figure>
+                        <figure >
+                            <img src="imagenes/ILUSTRACIONES/2.jpg" onclick="ampliar1('imagenes/ILUSTRACIONES/2.jpg')"> 
+                        </figure>                
+                        <figure >
+                            <img src="imagenes/ILUSTRACIONES/3.jpg" onclick="ampliar('imagenes/ILUSTRACIONES/3.jpg')" > 
+                        </figure>                
+                        <figure >
+                            <img src="imagenes/ILUSTRACIONES/4.jpg" onclick="ampliar('imagenes/ILUSTRACIONES/4.jpg')"> 
+                        </figure>                
+                        <figure >
+                            <img src="imagenes/ILUSTRACIONES/5.jpg" onclick="ampliar('imagenes/ILUSTRACIONES/5.jpg')"> 
+                        </figure>                
+                        <figure >
+                            <img src="imagenes/ILUSTRACIONES/6.jpg" onclick="ampliar('imagenes/ILUSTRACIONES/6.jpg')"> 
+                        </figure>       
+                    </div>         
+                </div> 
+                        <!--imagenes-->
+        <div class="portafolio_modelado column tres">
+            <h1>MODELADO 3D</h1>
+            <div>
+                <figure>
+                    <img src="imagenes/MODELADO 3D/1.jpg" onclick="ampliar1('imagenes/MODELADO 3D/1.jpg')" > 
+                </figure>
+                <figure >
+                    <img src="imagenes/MODELADO 3D/2.jpg" onclick="ampliar1('imagenes/MODELADO 3D/2.jpg')"> 
+                </figure>                
+                <figure >
+                    <img src="imagenes/MODELADO 3D/3.jpg" onclick="ampliar1('imagenes/MODELADO 3D/3.jpg')" > 
+                </figure>                
+                <figure >
+                    <img src="imagenes/MODELADO 3D/4.jpg" onclick="ampliar1('imagenes/MODELADO 3D/4.jpg')"> 
+                </figure>                
+                <figure >
+                    <img src="imagenes/MODELADO 3D/5.jpg" onclick="ampliar1('imagenes/MODELADO 3D/5.jpg')"> 
+                </figure>                
+                <figure >
+                    <img src="imagenes/MODELADO 3D/6.jpg" onclick="ampliar1('imagenes/MODELADO 3D/6.jpg')"> 
+                </figure>      
+            </div>          
+        </div> 
+                <!--imagenes-->
+                <div class="portafolio_fot column cuatro">
+                    <h1>FOTOGRAFÍA</h1>
+                    <div>
+                        <figure style="width: 40%;height: 60%; ">
+                            <img src="imagenes/FOTOGRAFÍA/1.jpg" onclick="ampliar('imagenes/FOTOGRAFÍA/1.jpg')" > 
+                        </figure>
+                        <figure style="width: 50%; height: 30%; cursor:pointer; ">
+                            <img src="imagenes/FOTOGRAFÍA/2.jpg" onclick="ampliar1('imagenes/FOTOGRAFÍA/2.jpg')"> 
+                        </figure>                
+                        <figure style="width: 50%; height: 20%;margin-top: -30%; margin-left: 40%; ">
+                            <img style="" src="imagenes/FOTOGRAFÍA/3.jpg" onclick="ampliar1('imagenes/FOTOGRAFÍA/3.jpg')" > 
+                        </figure>                
+                        <figure style="width: 40%;height: 50%; margin-top: -10% ;" >
+                            <img src="imagenes/FOTOGRAFÍA/4.jpg" onclick="ampliar('imagenes/FOTOGRAFÍA/4.jpg')"> 
+                        </figure>                
+                        <figure style="width: 50%; height: 30%;margin-top: -50%; margin-left: 40%;">
+                            <img src="imagenes/FOTOGRAFÍA/5.jpg" onclick="ampliar1('imagenes/FOTOGRAFÍA/5.jpg')"> 
+                        </figure>                
+                        <figure style="width: 50%; height: 30%;margin-top: -25%; margin-left: 40%;">
+                            <img src="imagenes/FOTOGRAFÍA/6.jpg" onclick="ampliar1('imagenes/FOTOGRAFÍA/6.jpg')"> 
+                        </figure>    
+                    </div>            
+                </div> 
+
+        </section>
+
+    </main>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img  id="cambiar" class="modal-content" src="" alt="">
+    
+    </div>
+    <div id="myModal1" class="modal1">
+        <span class="close1">&times;</span>
+        <img  id="cambiar1" class="modal-content1" src="" alt="">
+    
+    </div>
+    <h1 style="color:#d44048 ; margin-top: 10%; margin-left: 40%; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;";>CONTÁCTANOS</h1>
+    <footer id="contacto">
+        
+        <form action="" class="footer"><!--Etiqueta semantica par la creación de formularios -->
+            <div class="formulario">
+                <div class="izquierda">
+                                
+                    <label for="nombre" >
+                        <span>Nombre</span>
+                        <input type="text" id="nombre" ><!--input tipo texto-->
+                    </label>
+                    
+                    <label for="Telefono">
+                        <span>Telefono</span>
+                        <input type="text" id="nombre" ><!--input tipo texto-->
+                    </label> 
+                        
+                    <label for="nombre">
+                        <span>Correo Electronico</span>
+                        <input type="text" id="nombre" ><!--input tipo texto-->
+                    </label>
+                </div>
+                <div class="derecha">
+                    <label for="nombre">
+                        <span class="mensaje">Mensaje:</span>
+                        <input  class ="entrada" type="text" id="nombre" ><!--input tipo texto-->
+                    </label>
+                </div>
+            </div>
+            <button type="submit" src="#"> enviar</button>
+
+        </form>
+    </footer>
+    <div class="contactos">
+        <figure>
+            <i class="contac fab fa-whatsapp-square"></i>
+            <figcaption>+57 322 386 0124</figcaption>
+        </figure>
+        <figure>
+            <i class="contac fas fa-map-marker-alt"></i>
+            <figcaption> calle 64 #112A-76</figcaption>
+        </figure> 
+        <div class="div_cont" style="margin-left: 10%; margin-right: 8%; width: 10%;margin-top: -5.8%;  height: 100px; display: flex;">
+            <div style="width: 45%; height: 100%; margin-right: 2%; "></div>
+            <div style="width: 45%; height: 70%; margin-top: 50%;"></div>
+        </div>      
+        <figure>
+            <i class="contac fab fa-twitter-square"></i>
+            <figcaption>@SUENUS_</figcaption>
+        </figure>        
+        <figure>
+            <i class="contac fab fa-facebook-square"></i>
+            <figcaption>SUENUS</figcaption>
+        </figure>        
+        <figure>
+            <i class="contac fab fa-instagram-square"></i>
+            <figcaption>@SUENUS</figcaption>
+        </figure>
+    </div>
+    <script>
+        /*cambiar la galeria*/
+        function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                console.log(x);
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                console.log(x[i]);
+
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+            
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                }
+            }
+            
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                    }
+            }
+            element.className = arr1.join(" ");
+            }
+            
+            
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("botones");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+                });
+            }
+            /*hacer mas grande las imagenes*/
+                       // Get the modal
+            var modal = document.getElementById("myModal");
+            var modal1 = document.getElementById("myModal1");
+
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var captionText = document.getElementById("caption");
+
+            function ampliar(a){
+                document.getElementById("cambiar").src=a;
+                            console.log(a);
+                            console.log("hola");
+                            
+            modal.style.display = "block";
+
+            }
+            function ampliar1(b){
+                document.getElementById("cambiar1").src=b;
+                            console.log(b);
+                            console.log("b");
+                            
+            modal1.style.display = "block";
+
+            }
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            var span1 = document.getElementsByClassName("close1")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+            span1.onclick = function() { 
+            modal1.style.display = "none";
+            }
+
+    </script>
+</body>
+</html>

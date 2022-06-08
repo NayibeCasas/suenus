@@ -1,0 +1,561 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10vh;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/fondo\ principal.png);
+    background-size: 100%;
+}
+.navegación{
+    width: 100%;
+    height: 50vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navegación ul{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+.prin{
+    width: 10%;
+    height: 15%;
+    margin-left: 97%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px 0 0 20px;
+    background-color:   #d44048  ;
+    list-style: none;
+    display: flex;
+    transition: 0.3s;
+    margin-bottom: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.prin a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15%;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    margin-right: 12%;
+    margin-left:15%;
+    
+}
+.prin:hover{
+    margin-left: 90%;
+}
+.home{
+    border-radius: 0 20px 20px 0;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 0 20px 20px 0;
+    background-color:   #d44048  ;
+    list-style: none;
+    display: flex;
+    margin-bottom: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 15%;
+    width: 10%;
+    margin-left: -6.5%;
+    transition: 0.3s;
+    margin-top: -18%;
+}
+.home img{
+    width: 30%;
+    height: 30%;
+}
+.home:hover{
+    margin-left:0%;
+}
+.main{
+    width: 100%;
+    text-align: center;
+    margin-top: -30%;
+}
+.main img{
+    width: 30%;
+
+}
+#sobre_mi{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+#sobre_mi div{
+    width: 50%;
+    text-align: left;
+    height: 100%;
+}
+#sobre_mi h1{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #8c2424;
+    margin-bottom: 5%;
+}
+#sobre_mi p{
+    text-align: left;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+}
+#sobre_mi img{
+    width: 100%;
+}
+.detalle div{ 
+    width: 2%;
+    margin-left: 2%;
+    background-color: #d44048;
+    text-align: right;
+    border-radius: 20px 20px 0 0;
+
+}
+.detalles div{ 
+    width: 2%;
+    margin-left: 2%;
+    background-color: #d44048;
+    text-align: right;
+    border-radius: 0 0 20px 20px;
+
+}
+.main_habilidades{
+    width:30%;
+    margin-left: 20%;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.main_habilidades h1{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color:  #8c2424;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+.main_habilidades figure{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+}
+.main_habilidades img{
+    width: 5%;
+    margin-right: 5%;
+}
+.main_habilidades div{
+    border-radius: 20px 20px 20px 20px;
+}
+.portafolio{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+.portafolio img{
+    width: 15%;
+    height: 80vh;
+}
+.portafolio h1{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 800;
+    color:  #8c2424;
+    font-size: 45px;
+}
+.portafolio div{
+    width: 80%;
+    text-align: left;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.content p{
+    background-color:#8c2424;
+    width: 80%;
+    cursor: pointer;
+    text-align: center;
+    margin-left: -1%;
+    z-index: 1;
+    height: 5vh;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.portafolio_valla{
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+
+}
+.portafolio_valla div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.portafolio_valla figure{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 2%;
+
+}
+.portafolio_valla img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.portafolio_ilus{
+    width: 100%;
+    height: 60vh;
+}
+.portafolio_ilus div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.portafolio_ilus figure{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.portafolio_ilus img{
+    width: 80%;
+    height: 90%;
+    cursor: pointer;
+}
+.portafolio_modelado{
+    width: 100%;
+    height: 60vh;
+}
+.portafolio_modelado div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.portafolio_modelado figure{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.portafolio_modelado img{
+    width: 80%;
+    height:80%;
+    cursor: pointer;
+}
+.portafolio_fot{
+    width: 100%;
+    height: 90vh;
+}
+.portafolio_fot div{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.portafolio_fot figure{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portafolio_fot img{
+        width: 80%;
+    height: 80%;
+    cursor: pointer;
+}
+.column{
+    
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+
+}
+.show{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.show H1{
+    font-size: 18px;
+}
+.btn.active {
+}
+footer{
+    width: 60%;
+    margin-left: 20%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;margin-top: -8%;
+
+}
+.footer{
+    width: 60%;
+    height: 55%;
+    background-color:   #d44048  ;
+    text-align: center;
+    
+    border-radius: 60px 60px 60px 60px;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    height:80%;
+    justify-content: space-between;
+}
+.izquierda{
+    width: 35%;
+    height: 100%;
+    text-align: left;
+    margin-left:8%;
+    margin-top: 10%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+
+}
+span{
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+input[type=text]{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 20px 20px 20px 20px;
+    border: white 1px solid;
+    background-color: transparent;
+    outline-style: none;
+}
+button{
+    height: 10%;
+    width: 30%;
+    border-radius: 60px 60px 60px 60px;
+    background-color: white;
+    border: white 1px solid;
+    color: #d44048;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+.mensaje{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+    font-size: 16px;
+    width: 40%;
+}
+.entrada{
+    height: 60%;
+}
+.derecha{
+    width: 40%;
+    height: 100%;
+    margin-right:2%;
+    margin-top: 10%;
+    text-align: left;
+}
+button:hover{
+    background-color: #d44048;
+    border: #d44048 1px solid;
+    color: white;
+}
+input:focus{
+	box-shadow: 0 0 10px 0  #8c2424;
+}
+/**/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+  /* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: 100%;
+    margin-bottom: 5%;
+}
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+  /* Modal Content (image) */
+.modal-content1 {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: 100%;
+    margin-bottom: 5%;
+}
+.modal-content1 {
+    margin: auto;
+    display: block;
+    width: 60%;
+    max-width: 500px;
+    height: 50%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+
+
+  /* Add Animation */
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+.modal-content1, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+  /* The Close Button */
+  .close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+  /* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+    width: 100%;
+    }
+}
+.contactos{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    height: 5vh;
+}
+.contactos figure{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+
+}
+.contactos figcaption{
+    font-size: 12px;
+}
+.contac{
+    color: #8c2424;
+    font-size: 25px;
+    margin-right: 4%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.div_cont div{
+    background-color: #d44048;
+    border-radius: 50px 50px 0 0;
+}
